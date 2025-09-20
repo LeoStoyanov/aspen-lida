@@ -67,7 +67,7 @@ const app_config = {
      owner: owner['expoProjectOwner'],
      platforms: ['ios', 'android'],
      version: version['version'],
-     sdkVersion: '53.0.0',
+     sdkVersion: '54.0.0',
      newArchEnabled: false,
      userInterfaceStyle: 'automatic',
      orientation: 'default',
@@ -167,6 +167,7 @@ const app_config = {
      plugins: [
           'expo-secure-store',
           'expo-localization',
+          'expo-font',
           [
                'expo-location',
                {
